@@ -1,5 +1,12 @@
+# Module directory
+**/.terraform
 
-# Ignore IDE configuration files
-.vscode/
-.idea/
-.terraform
+.idea
+*.iml
+
+# Compiled files
+**/*.tfstate
+**/*.tfstate.backup
+**/*.terraform.tfstate*
+**/.terraform.lock.hcl
+**/.terraform.lock.hcl
