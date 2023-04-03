@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Deployment
+metadata: 
+    name: ngnix2
+spec: 
+    containers: 
+         replicas: 4
+         name : nginx2
+         image name: nginx
+         ports: 
+           - containerPort : 80
